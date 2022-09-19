@@ -9,6 +9,8 @@ import UIKit
 
 class ImageTableViewCell: UITableViewCell {
 
+    @IBOutlet weak var movieTitle: UILabel!
+    @IBOutlet weak var imageView1: LazyImageView!
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
